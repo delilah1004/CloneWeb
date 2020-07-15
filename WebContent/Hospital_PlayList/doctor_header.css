@@ -1,0 +1,149 @@
+@charset "UTF-8";
+* {
+	font-family: "맑은 고딕", "Malgun Gothic", 'Nanum Gothic', "나눔고딕", "돋움", Dotum, "굴림", Gulim, HelveticaNeue-Light, AppleSDGothicNeo-Light, sans-serif;
+	
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+header > #top_menu {
+	width: 980px;
+	
+	margin: 0px auto;
+	
+	overflow: hidden;
+}
+
+header > #top_menu > .top_left {
+	float: left;
+	
+	margin-top: 7px;
+}
+
+header > #top_menu > .top_left * {
+	height: 32px;
+	line-height: 32px;
+	
+	/* height: 26px;
+	line-height: 26px;
+	 */
+}
+
+header > #top_menu > .top_right {
+	overflow: hidden;
+	
+	float: right;
+	
+	padding-top: 10px;
+}
+
+header > #top_menu > .top_right li {
+	float: right;
+}
+
+header > #top_menu > .top_right li > a {
+	height: 16px;
+	padding: 0 2px 0 11px;
+    font-size: 12px;
+    color: #a3a3a3;
+    letter-spacing: -1px;
+    line-height: 16px;
+}
+
+header > #logo {
+	width: 980px;
+	height: 79px;
+	
+	text-align: center;
+	
+	margin: 0px auto;
+}
+
+header > #logo > a:first-child > img{
+	max-height: 36px;
+	
+	padding-right: 20px;
+	
+	vertical-align: middle;
+}
+
+header > #logo > a:last-child > img{
+	max-height: 79px;
+	
+	vertical-align: middle;
+}
+
+header > #menu {
+	width: 980px;
+	
+	margin: 0px auto;
+	
+	padding-top: 11px;
+	padding-bottom: 12px;
+	
+	overflow: hidden;
+}
+
+header > #menu > .m_left {
+	float: left;
+	
+	overflow: hidden;
+}
+
+header > #menu > .m_left li {
+	float: left;
+}
+
+header > #menu > .m_left li:first-child ~ li {
+	margin-left: 34px;
+}
+
+header > #menu > .m_left li > a {
+	font-size: 16px;
+	letter-spacing: -1px;
+    color: #000000;
+}
+
+header > #menu > .m_right {
+	float: right;
+}
+
+header > #menu > .m_right li {
+	float: right;
+	
+	overflow: hidden;
+}
+
+header > #menu > .m_right li:first-child {
+	margin-left: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

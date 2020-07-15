@@ -1,0 +1,129 @@
+@charset "UTF-8";
+* {
+	font-family: "맑은 고딕", "Malgun Gothic", 'Nanum Gothic', "나눔고딕", "돋움", Dotum, "굴림", Gulim, HelveticaNeue-Light, AppleSDGothicNeo-Light, sans-serif;
+	
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+h4 {
+	font-size: 100%;
+    font-weight: normal;
+}
+
+#content > #poster {
+	height: 636px;
+	
+	background-color: #f0f0f0;
+	
+	text-align: center;
+}
+
+#content > #m_con {
+	width: 1180px;
+	
+	padding-top: 40px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+	
+	margin: 0px auto;
+	
+	overflow: hidden
+}
+
+#content > #m_con > .title {
+	width: 100%;
+	
+	margin: 0px auto;
+	
+	padding-bottom: 28px;
+	
+	overflow: hidden;
+}
+
+#content > #m_con > .title > div:first-child {
+	width: 620px;
+	
+	float: left;
+}
+
+#content > #m_con > .title > div:last-child > h2 {
+	margin-left: 28px;
+}
+
+#content > #m_con > div {
+	overflow: hidden;
+}
+
+#content > #m_con > div > div {
+	float: left;
+}
+
+#content > #m_con .mc_left > div{	
+	width:620px;
+	height: 450px;
+}
+
+#content > #m_con .mc_left > div > a > img{
+	width: 590px;
+	height: 328px;
+}
+
+#content > #m_con .mc_left > div > a > span{
+	display: block;
+	margin-top: 20px;
+	font-size: 1.2em;
+}
+
+#content > #m_con .empty > .line {
+	position: absolute;
+	width: 2px;
+	height: 450px;
+	
+	background-color: #eeeeee;
+}
+
+#content > #m_con .mc_right > .contents {
+	margin-left: 28px;
+	
+	overflow: hidden;
+}
+
+#content > #m_con .mc_right > .contents > div {
+	width: 256px;
+	height: 217px;
+	
+	float: left;
+}
+
+#content > #m_con .mc_right > .contents > div:first-child {
+	margin-right: 10px;
+}
+
+#content > #m_con .mc_right > .contents > div:last-child {
+	margin-left: 10px;
+}
+
+#content > #m_con .mc_right > .contents > div > a > img {
+	width: 100%;
+	height: 144px;
+	
+	padding-right: 10px;
+}
+
+#content > #m_con .mc_right > .contents > div > a > span {
+	display: block;
+
+	margin-top: 10px;
+	
+	font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    letter-spacing: -1px;   
+}
+
+#content > #m_con .mc_right > .contents > div > a > span:hover {
+	 text-decoration: underline;
+}
